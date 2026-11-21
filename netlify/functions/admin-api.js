@@ -24,7 +24,7 @@ exports.handler=async(event)=>{
  if(event.httpMethod==='GET')return json(200,{gifts:current,sha:data.sha});
  if((event.body||'').length>120000)return json(413,{error:'Wishlist is too large'});
  const body=JSON.parse(event.body||'{}');
- if(!Array.isArray(body.gifts)||body.gifts.length>200||!body.gifts.every(x=>x&&typeof x.name==='string'&&x.name.trim().length>0&&x.name.length<=150&&typeof x.category==='string'&&x.name.length<=150&&['id','name','price','category','priority','link','image','desc'].every(k=>x[k]===undefined||['string','number'].includes(typeof x[k]))))return json(400,{error:'Invalid gift data'});
+ if(!Array.isArray(body.gifts)||body.gifts.length>200||!body.gifts.every(x=>x&&typeof x.name==='string'&&x.name.trim().length>0&&x.name.length<=150&&typeof x.category==='string'&&x.name.length<=150&&['id','name','price','category','priority','link','image','desc'].every(k=>x[k]===undefined||['string','number'].includes(typeof x[k]))&& (x.links===undefined||(Array.isArray(x.links)&&x.links.length<=15&&x.links.every(l=>l&&typeof l.label==='string'&&l.label.length<=60&&typeof l.url==='string'&&l.url.length<=2000&&/^https?:\/\//i.test(l.url))))))return json(400,{error:'Invalid gift data'});
  if(body.sha!==data.sha)return json(409,{error:'The wishlist changed since you loaded it. Refresh before saving.'});
  const payload={message:'Update Christmas wishlist from private admin dashboard',content:Buffer.from(JSON.stringify(body.gifts,null,2)+'\n').toString('base64'),sha:data.sha,branch:'main'};
  const saved=await github(FILE,token,{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
