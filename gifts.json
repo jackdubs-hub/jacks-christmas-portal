@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Because I Killed Him (The Nine Gentlemen)",
+    "price": "",
+    "category": "Intellectual Capital",
+    "priority": "Preferred",
+    "desc": "Book on Jack's Christmas wishlist.",
+    "link": "https://www.amazon.com/dp/B0GPBNSCVH",
+    "image": ""
+  },
+  {
+    "id": 2,
+    "name": "Samsung 27-inch Odyssey OLED G5 G50SF QHD 180Hz Gaming Monitor",
+    "price": 319.99,
+    "category": "Technology Investments",
+    "priority": "Preferred",
+    "desc": "OLED gaming monitor option. One of two monitors under consideration; not a request to purchase both. Price checked Nov 2026; retailer sales may change.",
+    "link": "https://www.bestbuy.com/product/samsung-27-odyssey-oled-g5-g50sf-qhd-180hz-0-03ms-g-sync-freesync-compatible-glare-free-gaming-monitor-black/JJGRF39LWW/sku/6667829",
+    "image": ""
+  },
+  {
+    "id": 3,
+    "name": "LG UltraGear 27-inch QHD Glossy OLED 240Hz Gaming Monitor",
+    "price": 349.99,
+    "category": "Technology Investments",
+    "priority": "Preferred",
+    "desc": "Alternative OLED gaming monitor option. One of two monitors under consideration; not a request to purchase both. Price is a November 2026 retailer snapshot; check current price at checkout.",
+    "link": "https://www.bestbuy.com/product/lg-ultragear-27-qhd-glossy-oled-240hz-gaming-monitor-0-03ms-nvidia-g-sync-amd-freesync-premium-pro-displayhdr-trueblack400-black/JJ8VPZK94J/sku/6685370",
+    "image": ""
+  },
+  {
+    "id": 4,
+    "name": "The Devils by Joe Abercrombie",
+    "price": "",
+    "category": "Intellectual Capital",
+    "priority": "Preferred",
+    "desc": "Fantasy novel. Purchase the edition linked here.",
+    "link": "https://www.amazon.com/Devils-Joe-Abercrombie/dp/125088005X",
+    "image": ""
+  },
+  {
+    "id": 5,
+    "name": "Seiko 5 Sports Automatic Stainless Steel Bracelet Watch, 42.5mm (Silver)",
+    "price": 280,
+    "category": "Wardrobe Development",
+    "priority": "Preferred",
+    "desc": "Silver stainless-steel bracelet watch option. Price is a November 2026 retailer snapshot; check current price at checkout.",
+    "link": "https://www.macys.com/shop/product/seiko-mens-automatic-5-sports-stainless-steel-bracelet-watch-42.5mm?ID=10223923&swatchColor=Silver",
+    "image": ""
+  },
+  {
+    "id": 6,
+    "name": "Seiko 5 Sports Automatic Stainless Steel Bracelet Watch, 43mm (Black)",
+    "price": 280,
+    "category": "Wardrobe Development",
+    "priority": "Preferred",
+    "desc": "Black Seiko 5 Sports watch option. Price is a November 2026 retailer snapshot; check current price at checkout.",
+    "link": "https://www.macys.com/shop/product/seiko-mens-automatic-5-sports-stainless-steel-bracelet-watch-43mm?ID=12365162&swatchColor=Black",
+    "image": ""
+  }
+]
