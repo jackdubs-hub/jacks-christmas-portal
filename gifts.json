@@ -58,5 +58,25 @@
     "desc": "Black Seiko 5 Sports watch option. Price is a November 2026 retailer snapshot; check current price at checkout.",
     "link": "https://www.macys.com/shop/product/seiko-mens-automatic-5-sports-stainless-steel-bracelet-watch-43mm?ID=12365162&swatchColor=Black",
     "image": ""
+  },
+  {
+    "id": 7,
+    "name": "Xbox Gift Card (Digital Code)",
+    "price": "",
+    "category": "Technology Investments",
+    "priority": "Preferred",
+    "desc": "Digital gaming gift card. Any denomination is appreciated.",
+    "link": "https://www.amazon.com/dp/B00F4CFAV8",
+    "image": ""
+  },
+  {
+    "id": 8,
+    "name": "PlayStation Store Gift Card (Digital Code)",
+    "price": "",
+    "category": "Technology Investments",
+    "priority": "Preferred",
+    "desc": "Digital gaming gift card. Any denomination is appreciated.",
+    "link": "https://www.amazon.com/dp/B004RMK4P8",
+    "image": ""
   }
 ]
