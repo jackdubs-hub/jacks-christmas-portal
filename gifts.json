@@ -78,5 +78,49 @@
     "desc": "Digital gaming gift card. Any denomination is appreciated.",
     "link": "https://www.amazon.com/dp/B004RMK4P8",
     "image": ""
+  },
+  {
+    "id": 9,
+    "name": "Hatch Sunrise Alarm Clock",
+    "category": "Technology Investments",
+    "desc": "Hatch sleep and wake-up light with guided sleep routines and sunrise alarm.",
+    "link": "https://www.amazon.com/dp/B0DLLSCVZW",
+    "price": "",
+    "priority": "Preferred",
+    "image": "",
+    "links": []
+  },
+  {
+    "id": 10,
+    "name": "Ninja CREAMi Deluxe Ice Cream Maker (NC501)",
+    "category": "General Procurement",
+    "desc": "Ninja CREAMi Deluxe ice cream and frozen treat maker.",
+    "link": "https://www.target.com/p/ninja-0-5qt-stainless-steel-creami-nc501/-/A-86314672",
+    "price": "",
+    "priority": "Preferred",
+    "image": "",
+    "links": []
+  },
+  {
+    "id": 11,
+    "name": "Escali Primo Digital Kitchen Scale (Chrome)",
+    "category": "General Procurement",
+    "desc": "Digital kitchen scale option for measuring ingredients and portions.",
+    "link": "https://www.target.com/p/escali-primo-digital-scale-chrome/-/A-92922599",
+    "price": "",
+    "priority": "Preferred",
+    "image": "",
+    "links": []
+  },
+  {
+    "id": 12,
+    "name": "OXO 11-lb Stainless Steel Food Scale with Pull-Out Display",
+    "category": "General Procurement",
+    "desc": "Alternative kitchen scale with pull-out display.",
+    "link": "https://www.surlatable.com/product/oxo-11-lb-stainless-steel-scale-with-pull-out-display/3825387",
+    "price": "",
+    "priority": "Preferred",
+    "image": "",
+    "links": []
   }
 ]
