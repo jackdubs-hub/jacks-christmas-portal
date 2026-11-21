@@ -110,7 +110,12 @@
     "price": "",
     "priority": "Preferred",
     "image": "",
-    "links": []
+    "links": [
+      {
+        "label": "Amazon",
+        "url": "https://www.amazon.com/dp/B0007GAWRS"
+      }
+    ]
   },
   {
     "id": 12,
